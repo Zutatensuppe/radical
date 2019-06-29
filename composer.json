@@ -1,0 +1,12 @@
+{
+    "name": "zutatensuppe/radical",
+    "description": "PHP tools",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "license": "MIT License",
+    "require": {
+        "php": "^7.2"
+    }
+}
