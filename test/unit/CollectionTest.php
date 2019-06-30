@@ -1,9 +1,9 @@
 <?php
 
-namespace zutatensuppe\radical\test\unit;
+namespace Zutatensuppe\Radical\Test\Unit;
 
 use PHPUnit\Framework\TestCase;
-use zutatensuppe\radical\collection_;
+use Zutatensuppe\Radical\Collection;
 
 class CollectionTest extends TestCase
 {
@@ -12,7 +12,7 @@ class CollectionTest extends TestCase
      */
     public function testGetDeep($mixed, $path, $expected): void
     {
-        self::assertSame($expected, collection_\get_deep($mixed, $path));
+        self::assertSame($expected, Collection::getDeep($mixed, $path));
     }
 
     public function getDeepDataProvider(): array

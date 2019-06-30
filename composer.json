@@ -11,15 +11,13 @@
     "php": "^7.2"
   },
   "autoload": {
-    "files": [
-      "src/collection_.php",
-      "src/string_.php",
-      "src/var_.php"
-    ]
+    "psr-4": {
+      "Zutatensuppe\\Radical\\": "src"
+    }
   },
   "autoload-dev": {
     "psr-4": {
-      "zutatensuppe\\radical\\test\\": "test"
+      "Zutatensuppe\\Radical\\Test\\": "test"
     }
   }
 }

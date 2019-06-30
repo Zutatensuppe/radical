@@ -1,18 +1,18 @@
 <?php
 
-namespace zutatensuppe\radical\test\unit;
+namespace Zutatensuppe\Radical\Test\Unit;
 
 use PHPUnit\Framework\TestCase;
-use zutatensuppe\radical\var_;
+use Zutatensuppe\Radical\Variable;
 
-class VarTest extends TestCase
+class VariableTest extends TestCase
 {
     /**
      * @dataProvider equalDataProvider
      */
     public function testEqual($a, $b, bool $expected): void
     {
-        self::assertSame($expected, var_\equal($a, $b));
+        self::assertSame($expected, Variable::equal($a, $b));
     }
 
     public function equalDataProvider(): array
