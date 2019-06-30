@@ -12,7 +12,13 @@
   },
   "autoload": {
     "files": [
+      "src/collection_.php",
       "src/string_.php"
     ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "zutatensuppe\\radical\\test\\": "test"
+    }
   }
 }
