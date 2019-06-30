@@ -13,7 +13,8 @@
   "autoload": {
     "files": [
       "src/collection_.php",
-      "src/string_.php"
+      "src/string_.php",
+      "src/var_.php"
     ]
   },
   "autoload-dev": {

@@ -15,7 +15,7 @@ class CollectionTest extends TestCase
         self::assertSame($expected, collection_\get_deep($mixed, $path));
     }
 
-    public function getDeepDataProvider()
+    public function getDeepDataProvider(): array
     {
         return [
             [
